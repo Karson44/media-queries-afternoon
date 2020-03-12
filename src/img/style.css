@@ -1,0 +1,176 @@
+body{
+    background-color:white;
+    
+}
+
+.bigBox{
+    background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+    
+    height: 100%;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerBox{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.headerItem1{
+    margin-right: 300px;
+    font-family: 'Kaushan Script', cursive;
+    color: #FED300
+}
+
+.headerItem{
+    margin-right: 10px;
+}
+
+.content{
+    width: 100%;
+    height: 400px;
+    margin: 100px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.greeting{
+    font-style: italic;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.greeting1{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+    width: 55vw;
+    text-align: center;
+    margin: 30px;
+    font-size: 75px;
+    line-height: 75px;
+}
+
+.info{
+    width: 19vw;
+    height: 6vh;
+    background-color: #FED300;
+    border:none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;}
+
+.bottomBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.services{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 48px;
+}
+
+.services1{
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 400;
+    font-family: serif;
+    line-height: 48px;
+    color: #6c757d
+}
+
+.main-header {
+    height: 150px;
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+  .header-logo {
+    height: 125px;
+  }
+  .header-links {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
+  span {
+    font-size: 20px;
+  }
+  .dropdown-toggle {
+    display: none;
+  }
+  .mobile-links {
+    display: none;
+  }
+  .react-logo {
+    width: 350px;
+    height: 350px;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: 5s;
+  }
+  .react-logo:hover {
+    height: 700px;
+    width: 700px;
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @media(max-width: 800px){
+    .main-header {
+      height: 200px;
+    }
+    .header-logo {
+      height: 175px;
+    }
+    .header-links {
+      width: 40%;
+    }
+  }
+  @media(max-width: 450px){
+    .header-links {
+      display: none;
+    }
+    .dropdown-toggle {
+      display: initial;
+    }
+    .mobile-links {
+      display: initial;
+      height: 150px;
+      width: 150px;
+      background-color: royalblue;
+      position: fixed;
+      top: 200px;
+      right: 0px;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
